@@ -9,7 +9,7 @@ DESCRIPTION="Codesynthesis' ODB common runtime library"
 HOMEPAGE="http://www.codesynthesis.com/projects/odb"
 SRC_URI="http://www.codesynthesis.com/download/odb/$(get_version_component_range 1-2)/${P}.tar.bz2"
 
-LICENSE="|| ( GPL-2 ODB-FPL ODB-CPL ) "
+LICENSE="|| ( GPL-2 ODB-FPL ODB-CPL )"
 SLOT="0"
 KEYWORDS="~amd64"
 
