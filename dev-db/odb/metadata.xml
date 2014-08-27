@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd></herd>
+<longdescription lang="en">
+ODB is an open-source, cross-platform, and cross-database object-relational
+mapping (ORM) system for C++. It allows you to persist C++ objects to a
+relational database without having to deal with tables, columns, 
+or SQL and without manually writing any mapping code. Please email bugs to
+odb-users@codesynthesis.com
+</longdescription>
+<use>
+  <flag name='static-libs'>also install static runtime libraries</flag>
+  <flag name='threads'>enforce thread support in runtime libraries</flag>
+  <flag name='boost'>also install the odb boost support library</flag>
+  <flag name='doc'>also install documentation</flag>
+  <flag name='qt'>also install the qt support library</flag>
+  <flag name='mysql'>also install the MySQL runtime support library</flag>
+  <flag name='mssql'>also install the Microsoft SQL server runtime support library</flag>
+  <flag name='oracle'>also install the Oracle runtime support library</flag>
+  <flag name='postgres'>also install the postgreSQL runtime support library</flag>
+  <flag name='sqlite'>also install the SQLite runtime support library</flag>
+  <flag name='examples'>also install examples in doc directory</flag>
+  <flag name='doc'>also install the well written documentation for odb</flag>
+  <flag name='test'>test the installation as tailored by use flag combinations before also merging odb</flag>
+</use>
+</pkgmetadata>
+

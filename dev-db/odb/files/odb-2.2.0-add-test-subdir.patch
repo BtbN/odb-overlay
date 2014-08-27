@@ -1,0 +1,14 @@
+--- odb-2.2.0/configure.ac.orig	2013-02-12 13:32:46.000000000 +0100
++++ odb-2.2.0/configure.ac	2013-02-17 12:07:52.769053657 +0100
+@@ -11,6 +11,11 @@
+ AM_INIT_AUTOMAKE([-Wall -Werror foreign nostdinc subdir-objects dist-bzip2 dist-zip tar-ustar])
+ m4_ifdef([AM_PROG_AR], [AM_PROG_AR]) # Required by automake 1.12.
+ 
++# odb-tests needs to be a sub-directory of odb with Gentoo ebuild
++if test -d 'odb-tests'; then
++AC_CONFIG_SUBDIRS([odb-tests])
++fi
++
+ LT_INIT([disable-static])
+ 
+ AC_CANONICAL_HOST

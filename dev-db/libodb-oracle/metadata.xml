@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd></herd>
+<longdescription lang="en">
+A database runtime library to access an Oracle server using ODB
+Please send bugs to odb-users@codesynthesis.com
+</longdescription>
+<use>
+  <flag name="doc">also install some documentation</flag>
+  <flag name="static-libs">also install a static library</flag>
+  <flag name="threads">enable thread support</flag>
+</use>
+</pkgmetadata>

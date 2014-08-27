@@ -1,0 +1,11 @@
+--- odb-2.2.0_pre3/odb-tests/m4/odb.m4.orig	2012-01-29 14:12:54.000000000 +0100
++++ odb-2.2.0_pre3/odb-tests/m4/odb.m4	2013-02-16 12:45:36.711088318 +0100
+@@ -30,7 +30,7 @@
+  fi
+ fi
+ 
+-$ODB --version 2>/dev/null 1>&2
++$ODB --version 2>/dev/null 1>&2 || true
+ 
+ if test x"$?" = x0; then
+   AC_MSG_RESULT([$ODB])

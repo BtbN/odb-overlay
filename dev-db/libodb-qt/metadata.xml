@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd></herd>
+<longdescription lang="en">
+This package contains the ODB Qt support library. The Qt profile provides
+support for persisting Qt smart pointers, containers, and value types
+with the ODB system. Please send bugs to odb-users@codesynthesis.com
+</longdescription>
+<use>
+  <flag name="doc">install some documentation</flag>
+  <flag name="static-libs">also install a static library version</flag>
+  <flag name="threads">enable thread support</flag>
+</use>
+</pkgmetadata>

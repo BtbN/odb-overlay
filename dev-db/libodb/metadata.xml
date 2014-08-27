@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd></herd>
+<longdescription lang="en">
+Common Runtime Library for Codesynthesis' ODB. Please send bugs to
+odb-users@codesynthesis.com
+</longdescription>
+<use>
+  <flag name="doc">install documentation</flag>
+  <flag name="static-libs">also install a static library version</flag>
+  <flag name="threads">enable thread support</flag>
+</use>
+</pkgmetadata>

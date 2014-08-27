@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd></herd>
+<longdescription lang="en">
+libcutl is a C++ utility library. It contains a collection of generic and independent 
+components such as meta-programming tests, smart pointers, containers, compiler 
+building blocks, etc. Please report bugs to libcutl-users@codesynthesis.com
+</longdescription>
+<use>
+  <flag name="boost">use system boost_regex library instead of an internal copy</flag>
+  <flag name="static-libs">also provice static libraries too</flag>
+  <flag name="threads">enable thread support</flag>
+  <flag name="doc">install some documentation</flag>
+</use>
+
+</pkgmetadata>
