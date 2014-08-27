@@ -16,13 +16,10 @@ odb-users@codesynthesis.com
   <flag name='doc'>also install documentation</flag>
   <flag name='qt'>also install the qt support library</flag>
   <flag name='mysql'>also install the MySQL runtime support library</flag>
-  <flag name='mssql'>also install the Microsoft SQL server runtime support library</flag>
   <flag name='oracle'>also install the Oracle runtime support library</flag>
   <flag name='postgres'>also install the postgreSQL runtime support library</flag>
   <flag name='sqlite'>also install the SQLite runtime support library</flag>
-  <flag name='examples'>also install examples in doc directory</flag>
   <flag name='doc'>also install the well written documentation for odb</flag>
-  <flag name='test'>test the installation as tailored by use flag combinations before also merging odb</flag>
 </use>
 </pkgmetadata>
 

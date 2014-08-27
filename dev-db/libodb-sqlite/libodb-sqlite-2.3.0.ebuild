@@ -19,8 +19,7 @@ KEYWORDS="~amd64"
 IUSE="doc static-libs threads"
 
 DEPEND="=dev-db/libodb-${MY_V}*[static-libs?,threads=]
-		threads? ( dev-db/sqlite:3[static-libs?,threadsafe(+),unlock-notify(+)] )
-	   !threads? ( dev-db/sqlite:3[static-libs?,threadsafe(-),unlock-notify(-)] )"
+		dev-db/sqlite:3[static-libs?]"
 RDEPEND=${DEPEND}
 
 RESTRICT="test"
