@@ -18,8 +18,8 @@ RESTRICT="test"
 
 src_configure() {
 	myeconfargs=(
-			--docdir="${T}"
-			$(use_enable threads)
+        --docdir="${T}"
+        $(use_enable threads)
 	)
 	autotools-utils_src_configure
 }
