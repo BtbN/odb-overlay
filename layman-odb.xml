@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>                                                                                                     
+<repositories version="1.0">
+        <repo priority="50" quality="experimental" status="unofficial">
+                <name>odb</name>
+                <description>Overlay for libodb C++ ORM library</description>
+                <homepage>https://git.btbn.de/gitweb/odb-overlay.git</homepage>
+                <source type="git">git://git.btbn.de/odb-overlay.git</source>
+        </repo>
+</repositories>
