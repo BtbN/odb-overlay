@@ -1,10 +1,10 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=5
 
-inherit autotools-utils versionator
+inherit autotools-utils versionator flag-o-matic toolchain-funcs
 
 MY_V="$(get_version_component_range 1-2)"
 
@@ -37,5 +37,11 @@ src_configure() {
 			--psdir="${docdir}/ps"
 			--disable-static
 	)
+
+	# Workaround a bug in gcc-4.9, which is fixed in 4.9.3:
+	if [[ $(gcc-major-version) -eq 4 && $(gcc-minor-version) -eq 9 && $(gcc-micro-version) -lt 3 ]]; then
+		append-cxxflags $(test-flags-CXX -fno-devirtualize)
+	fi
+
 	autotools-utils_src_configure
 }
