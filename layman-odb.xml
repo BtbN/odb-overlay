@@ -3,7 +3,7 @@
         <repo priority="50" quality="experimental" status="unofficial">
                 <name>odb</name>
                 <description>Overlay for libodb C++ ORM library</description>
-                <homepage>https://git.btbn.de/gitweb/odb-overlay.git</homepage>
-                <source type="git">git://git.btbn.de/odb-overlay.git</source>
+                <homepage>https://github.com/BtbN/odb-overlay</homepage>
+                <source type="git">https://github.com/BtbN/odb-overlay.git</source>
         </repo>
 </repositories>
